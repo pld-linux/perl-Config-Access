@@ -1,12 +1,11 @@
-%define	pdir	Config
-%define	pnam	Access
 %include	/usr/lib/rpm/macros.perl
+%define		pdir	Config
+%define		pnam	Access
 Summary:	Config-Access perl module
 Summary(pl):	Modu³ perla Config-Access
 Name:		perl-Config-Access
 Version:	0.02
 Release:	7
-
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Config-Access perl module.
 Modu³ perla Config-Access.
 
 %prep
-%setup -q -n Config-Access-%{version}
+%setup -q -n {pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
