@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Config
 %define		pnam	Access
-Summary:	Config-Access perl module
-Summary(pl):	Modu³ perla Config-Access
+Summary:	Config::Access perl module
+Summary(pl):	Modu³ perla Config::Access
 Name:		perl-Config-Access
 Version:	0.02
 Release:	7
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Config-Access perl module.
+Config::Access perl module.
 
 %description -l pl
-Modu³ perla Config-Access.
+Modu³ perla Config::Access.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
