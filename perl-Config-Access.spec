@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Config
 %define		pnam	Access
-Summary:	Config::Access - Perform simple access control
-Summary(pl):	Modu³ Config::Access - wykonuj±cy prost± kontrolê dostêpu
+Summary:	Config::Access - perform simple access control
+Summary(pl):	Config::Access - wykonywanie prostej kontroli dostêpu
 Name:		perl-Config-Access
 Version:	0.02
 Release:	10
