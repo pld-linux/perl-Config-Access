@@ -21,7 +21,7 @@ Config-Access perl module.
 Modu³ perla Config-Access.
 
 %prep
-%setup -q -n {pdir}-%{pnam}-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
