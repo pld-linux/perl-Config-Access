@@ -3,7 +3,7 @@ Summary:	Config-Access perl module
 Summary(pl):	Modu³ perla Config-Access
 Name:		perl-Config-Access
 Version:	0.02
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
