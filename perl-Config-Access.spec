@@ -5,7 +5,7 @@ Summary:	Config::Access - perform simple access control
 Summary(pl):	Config::Access - wykonywanie prostej kontroli dostêpu
 Name:		perl-Config-Access
 Version:	0.02
-Release:	10
+Release:	11
 License:	free
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
