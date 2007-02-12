@@ -2,7 +2,7 @@
 %define		pdir	Config
 %define		pnam	Access
 Summary:	Config::Access - perform simple access control
-Summary(pl):	Config::Access - wykonywanie prostej kontroli dostêpu
+Summary(pl.UTF-8):   Config::Access - wykonywanie prostej kontroli dostÄ™pu
 Name:		perl-Config-Access
 Version:	0.02
 Release:	11
@@ -21,10 +21,10 @@ arbitrary client/service pairs in a way very similar to that provided
 by the TCP wrappers by Wietse Venema <wietse@wzv.win.tue.nl> but not
 limited to inetd services and IP/host names.
 
-%description -l pl
-Modu³ Config::Access udostêpnia metodê do autoryzacji dowolnej pary
-klient/us³uga w sposób bardzo podobny do udostêpnianego przez TCP
-wrappers autorstwa Wietse Venemy, ale nie ograniczony do us³ug inetd
+%description -l pl.UTF-8
+ModuÅ‚ Config::Access udostÄ™pnia metodÄ™ do autoryzacji dowolnej pary
+klient/usÅ‚uga w sposÃ³b bardzo podobny do udostÄ™pnianego przez TCP
+wrappers autorstwa Wietse Venemy, ale nie ograniczony do usÅ‚ug inetd
 ani nazwy/IP komputera.
 
 %prep
