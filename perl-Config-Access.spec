@@ -2,7 +2,7 @@
 %define		pdir	Config
 %define		pnam	Access
 Summary:	Config::Access - perform simple access control
-Summary(pl.UTF-8):   Config::Access - wykonywanie prostej kontroli dostępu
+Summary(pl.UTF-8):	Config::Access - wykonywanie prostej kontroli dostępu
 Name:		perl-Config-Access
 Version:	0.02
 Release:	11
