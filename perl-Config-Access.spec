@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Config
 %define		pnam	Access
+%include	/usr/lib/rpm/macros.perl
 Summary:	Config::Access - perform simple access control
 Summary(pl.UTF-8):	Config::Access - wykonywanie prostej kontroli dostępu
 Name:		perl-Config-Access
@@ -10,6 +10,7 @@ License:	free
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	8d90b7c317ce3144410b26a34fad026e
+URL:		http://search.cpan.org/dist/Config-Access/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
