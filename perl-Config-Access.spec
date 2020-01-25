@@ -1,6 +1,5 @@
 %define		pdir	Config
 %define		pnam	Access
-%include	/usr/lib/rpm/macros.perl
 Summary:	Config::Access - perform simple access control
 Summary(pl.UTF-8):	Config::Access - wykonywanie prostej kontroli dostępu
 Name:		perl-Config-Access
